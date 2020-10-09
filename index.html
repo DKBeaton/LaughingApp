@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laughing App</title>
+
+  <!-- CSS -->
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <div class="haha1"></div>
+    <div class="haha2"></div>
+    <div class="haha3"></div>
+    <div class="boo"></div>
+    <div class="yahoo"></div>
+    <div class="portrait">
+      <img src="images/person.svg" alt="Person" class="portrait-img">
+    </div>
+    <div class="portrait-halo"></div>
+  </div>
+  <!-- End of portrait -->
+
+  <div class="controls">
+    <button class="btn" data-key="KeyL">
+      <span class="letter" >L</span>
+      <span class="action">Laugh</span>
+    </button>
+    <button class="btn" data-key="KeyB">
+      <span class="letter" >B</span>
+      <span class="action">Boo</span>
+    </button>
+    <button class="btn" data-key="KeyY">
+      <span class="letter">Y</span>
+      <span class="action">Yahoo</span>
+    </button>
+  </div>
+  <!-- End of controls -->
+
+  <audio src="audio/haha.mp3" data-key="KeyL"></audio>
+  <audio src="audio/boo.mp3" data-key="KeyB"></audio>
+  <audio src="audio/yahoo.mp3" data-key="KeyY"></audio>
+  <!-- End of audio -->
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
