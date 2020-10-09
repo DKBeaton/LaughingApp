@@ -214,6 +214,25 @@ button.btn {
   animation: yahoo 1.2s ease;
 }
 
+/* Footer */
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+}
+
+.credits {
+  color: rgba(0,0,0,0.4);
+}
+
+.yellow {
+  color: #FFC600;
+}
+
+.white {
+  color: #fff;
+}
+
 /* Animation */
 
 @keyframes shine {
