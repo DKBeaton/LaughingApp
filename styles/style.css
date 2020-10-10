@@ -127,6 +127,11 @@ button.btn {
   font-size: 20px;
 }
 
+.instructions {
+  color: rgba(0,0,0,0.4);
+  margin-top: 1rem;
+}
+
 /* Audio */
 
 .playing {
